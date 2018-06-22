@@ -1,4 +1,7 @@
 # Neo4J_Graph
+![alt text][logo]
+[logo]: https://github.com/manguilar22/Neo4J_Graph/blob/master/images/neo4j.svg "Logo Title Text 2"
+
 Graph Databases are cool ...
 ### Neo4J on Docker
 ``` bash
