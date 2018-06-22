@@ -1,12 +1,12 @@
 # Neo4J_Graph
 
-``![](https://github.com/manguilar22/Neo4J_Graph/blob/master/images/neo4j.svg)``
+![](https://github.com/manguilar22/Neo4J_Graph/blob/master/images/neo4j.svg)
 
 Graph Databases are cool ...
 
 ### Neo4J on Docker
 
-``![](https://github.com/manguilar22/Neo4J_Graph/blob/master/images/docker.svg)``
+![](https://github.com/manguilar22/Neo4J_Graph/blob/master/images/docker.svg)
 
 ``` bash
 mkdir neo4j; mkdir data logs; cd neo4j
