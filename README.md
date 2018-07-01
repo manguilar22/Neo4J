@@ -11,7 +11,8 @@ Graph Databases are cool ...
 ``` bash
 mkdir neo4j; mkdir data logs; cd neo4j
 sudo docker run --name neo4j_server \
-  --publish 4717:4717 \
+  --publish 7474:7474 \
+  --publish 7687:7687 \
   -v /data/:/data/ \
   -v /logs/:logs/ \
   neo4j:latest
