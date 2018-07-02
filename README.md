@@ -1,12 +1,16 @@
 # Neo4J_Graph
 
-<img src="https://github.com/manguilar22/Neo4J_Graph/blob/master/images/neo4j.svg" width="200px" height="200px"/>
+<img src="https://github.com/manguilar22/Neo4J_Graph/blob/master/images/neo4j.svg" width="150px" height="100px"/>
 
 Graph Databases are cool ...
 
+#### Starting the Server
+
+<img src="https://github.com/manguilar22/Neo4J_Graph/blob/master/images/Start_Neo4_J_Server.png" width="500" height="200"/>
+
 ### Neo4J on Docker
 
-<img src="https://github.com/manguilar22/Neo4J_Graph/blob/master/images/docker.svg" width="200px" height="200px"/>
+<img src="https://github.com/manguilar22/Neo4J_Graph/blob/master/images/docker.svg" width="150px" height="100px"/>
 
 ``` bash
 mkdir neo4j; mkdir data logs; cd neo4j
