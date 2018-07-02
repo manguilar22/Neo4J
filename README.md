@@ -4,9 +4,13 @@
 
 Graph Databases are cool ...
 
-#### Starting the Server
+##### Starting the Server
 
-<img src="https://github.com/manguilar22/Neo4J_Graph/blob/master/images/Start_Neo4_J_Server.png" width="500" height="200"/>
+<img src="https://github.com/manguilar22/Neo4J_Graph/blob/master/images/Start_Neo4_J_Server.png" width="200" height="200"/>
+
+##### Simple Connection 
+
+<img src="https://github.com/manguilar22/Neo4J_Graph/blob/master/images/Example_Of_Possibilities.png" width="300" height="300"/>
 
 ### Neo4J on Docker
 
