@@ -4,18 +4,11 @@
 
 Graph Databases are cool ...
 
-##### Starting the Server
-
-<img src="https://github.com/manguilar22/Neo4J_Graph/blob/master/images/Start_Neo4_J_Server.png" width="500" height="500"/>
 
 ##### Graph 
 
-<img src="https://github.com/manguilar22/Neo4J_Graph/blob/master/images/Example_Of_Possibilities.png" width="500" height="500"/>
+<img src="https://github.com/manguilar22/Neo4J_Graph/blob/master/images/Example_Of_Graph.svg" width="" height=""/>
 
-
-#### Cypher
-
-<img src="https://github.com/manguilar22/Neo4J_Graph/blob/master/images/Tom_Hanks.png" width="500" height="500"/>
 
 ##### Graph
 
