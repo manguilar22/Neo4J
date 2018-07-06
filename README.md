@@ -2,8 +2,10 @@
 
 <img src="https://github.com/manguilar22/Neo4J_Graph/blob/master/images/neo4j.svg" width="150px" height="100px"/>
 
-Graph Databases are cool ...
-
+* __Nodes__ Entity Information 
+* __Relationships__ Connect one node to another
+* __Properties__ Nodes & Relationships are **containers** for properties
+* __Labels__ to make subgraphs
 
 ##### Graph 
 
