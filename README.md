@@ -9,9 +9,9 @@
 
 ---
 
-> Extract entities by looking at the __nouns__ of the description. 
-> Extract the properties by looking at the __adjectives__ of the description. 
-> Extract the relationship by looking at the __verbs__ in the description. 
+> * Extract entities by looking at the __nouns__ of the description. 
+> * Extract the properties by looking at the __adjectives__ of the description. 
+> * Extract the relationship by looking at the __verbs__ in the description. 
 
 ##### Graph 
 
