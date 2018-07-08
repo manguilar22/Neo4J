@@ -1,4 +1,4 @@
-# Neo4J_Graph
+# Neo4J Graph
 
 <img src="https://github.com/manguilar22/Neo4J_Graph/blob/master/images/neo4j.svg" width="150px" height="100px"/>
 
