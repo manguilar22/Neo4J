@@ -1,6 +1,5 @@
-# Neo4J Graph
+# Neo4J Graph <img src="https://github.com/manguilar22/Neo4J_Graph/blob/master/images/neo4j.svg" width="150px" height="100px"/>
 
-<img src="https://github.com/manguilar22/Neo4J_Graph/blob/master/images/neo4j.svg" width="150px" height="100px"/>
 
 * __Nodes__ Entity Information 
 * __Relationships__ Connect one node to another
