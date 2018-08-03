@@ -25,11 +25,13 @@ RETURN person,r,movie
 ##### Graph
 
 <img src="https://github.com/manguilar22/Neo4J_Graph/blob/master/images/Find_Tom_Hanks.svg" width="" height=""/> 
+
 ```
 MATCH(person:Person)-[r:ACTED_IN | WROTE]->(movie:Movie)
 WHERE person.name="Tom Hanks" AND r.earnings > 10000 AND movie.released > 2000
 RETURN person,r,movie
 ```
+
 ### Neo4J on Docker
 
 <img src="https://github.com/manguilar22/Neo4J_Graph/blob/master/images/docker.svg" width="150px" height="100px"/>
