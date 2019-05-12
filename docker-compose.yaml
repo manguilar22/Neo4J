@@ -1,0 +1,43 @@
+version: "3"
+# A cluster example in docker-compose
+services:
+        core-00:
+                image: neo4j:3.5-enterprise
+                container_name: core-00
+                environment:
+                        - NEO4J_dbms_mode=CORE
+                        - NEO4J_causal__clustering_expected__core__cluster__size=3
+                        - NEO4J_ACCEPT_LICENSE_AGREEMENT=yes 
+                        - NEO4J_causal__clustering_initial__discovery__members=core-00:5000,core-01:5000
+                ports:
+                        - "9474:7474"
+                        - "9473:7473"
+                        - "9687:7687"
+        core-01:
+                image: neo4j:3.5-enterprise
+                container_name: core-01
+                environment:
+                        - NEO4J_dbms_mode=CORE
+                        - NEO4J_casual__clustering_exprected__core__cluster__size=3
+                        - NEO4J_ACCEPT_LICENSE_AGREEMENT=yes
+                        - NEO4J_causal__clustering_initial__discovery__members=core-00:5000,core-01:5000
+                ports:
+                        - "8474:7474"
+                        - "8687:7687"
+                        - "8473:7473"
+        client:
+                image: neo4j:3.5-enterprise
+                container_name: client
+                environment:
+                        - NEO4J_dbms_mode=CORE
+                        - NEO4J_causal__clustering_expected__core__cluster__size=3
+                        - NEO4J_causal__clustering_initial__discovery__members=core-00:5000,core-01:5000
+                        - NEO4J_causal__clustering_discovery__advertised__address=client:5000
+                        - NEO4J_causal__clustering_transaction__advertised__address=client:600
+                        - NEO4J_causal__clustering_raft__advertised__address=client:7000
+                        - NEO4J_dbms_connectors_default__advertised__address=client
+                        - NEO4J_ACCEPT_LICENSE_AGREEMENT=yes
+                ports:
+                        - "7474:7474"
+                        - "7687:7687"
+                        - "7473:7473" 
